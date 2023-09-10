@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(37, 30, 68), rgb(109, 145, 161));
+}
+.container{
+    width: 60%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.pic{
+    margin: 0 auto;
+    width: 40%;
+}
+img{
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+}
+.slackName{
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+    color: rgb(37, 30, 68);
+}
+.slackName h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+.timewrapper{
+    height: 20%;
+    padding: 10px 0;
+}
+.timewrapper p{
+    margin: 10px 0;
+}
+.label{
+    background-color:rgb(37, 30, 68);
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 10px;
+}
+.linkwrapper{
+    width: 170px;
+    margin: 0 auto;
+}
+
+.link{
+    text-decoration: none;
+    background-color: rgb(37, 30, 68);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.link:hover{
+    background-color: white;
+    border: 2px solid rgb(37, 30, 68);
+    color: rgb(37, 30, 68);
+}

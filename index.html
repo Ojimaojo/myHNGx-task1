@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="./img/passport.jpeg" data-testid="slackDisplayImage" alt="Beth-el">
+        </div>
+        <div class="slackName">
+            <h2 data-testid="slackUserName">Beth-el</h2>
+            <p data-testid="myTrack">Frontend</p>
+        </div>
+        <hr>
+   <div class="timewrapper">
+    <p><span class="label">Today is:</span> <span id="day" data-testid="currentDayOfTheWeek"></span></p>
+    <p><span class="label">The Time in Miliseconds:</span> <span id="time" data-testid="currentUTCTime"></span></p>
+   </div>
+        <hr>
+        <br>
+        <div class="linkwrapper">
+            <a href="https://github.com/Ojimaojo/myHNGx-task1" class="link" data-testid="githubURL">View Source Code</a>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
